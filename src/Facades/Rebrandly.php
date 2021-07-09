@@ -1,6 +1,6 @@
 <?php
 
-namespace Luisfergago\Rebrandlyvel\Facades;
+namespace KemokRepos\Rebrandly\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
