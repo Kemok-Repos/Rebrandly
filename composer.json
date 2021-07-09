@@ -12,12 +12,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kemok-Repos\\Rebrandly\\": "src" 
+            "KemokRepos\\Rebrandly\\": "src" 
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kemok-Repos\\Rebrandly\\Tests\\": "tests"
+            "KemokRepos\\Rebrandly\\Tests\\": "tests"
         }
     },
     "require-dev": {
@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kemok-Repos\\Rebrandly\\RebrandlyServiceProvider"
+                "KemokRepos\\Rebrandly\\RebrandlyServiceProvider"
             ],
             "aliases": {
-                "Rebrandly": "Kemok-Repos\\Rebrandly\\Facades\\Rebrandly"
+                "Rebrandly": "KemokRepos\\Rebrandly\\Facades\\Rebrandly"
             }
         }
     },
