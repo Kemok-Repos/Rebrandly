@@ -100,7 +100,7 @@ class RebrandlyClient
     public function update(string $id, array $body): array
     {
 
-        return $this->request('POST', $body, ['id', 'shortUrl'], $this->getApiBaseUrl() . $id);
+        return $this->request('POST', $body, ['id', 'shortUrl', 'destination'], $this->getApiBaseUrl() . $id);
     }
 
     /**
