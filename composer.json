@@ -1,23 +1,23 @@
 {
-    "name": "luisfergago/rebrandlyvel",
-    "description": "Laravel package for generating shortlinks in Rebrandly",
+    "name": "Kemok-Repos/Rebrandly",
+    "description": "Laravel API wrapper for Rebrandly",
     "keywords": ["laravel", "rebrandly", "package", "shortlink", "url"],
     "homepage": "https://github.com/luisfergago/rebrandlyvel",
     "license": "MIT",
     "authors": [
         {
             "name": "Luis Gámez",
-            "email": "1110241@galileo.edu"
+            "email": "luis@kemok.io"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Luisfergago\\Rebrandlyvel\\": "src" 
+            "Kemok-Repos\\Rebrandly\\": "src" 
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Luisfergago\\Rebrandlyvel\\Tests\\": "tests"
+            "Kemok-Repos\\Rebrandly\\Tests\\": "tests"
         }
     },
     "require-dev": {
@@ -26,10 +26,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Luisfergago\\Rebrandlyvel\\RebrandlyServiceProvider"
+                "Kemok-Repos\\Rebrandly\\RebrandlyServiceProvider"
             ],
             "aliases": {
-                "Rebrandly": "Luisfergago\\Rebrandlyvel\\Facades\\Rebrandly"
+                "Rebrandly": "Kemok-Repos\\Rebrandly\\Facades\\Rebrandly"
             }
         }
     },
