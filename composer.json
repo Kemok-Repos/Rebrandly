@@ -1,5 +1,5 @@
 {
-    "name": "Kemok-Repos/Rebrandly",
+    "name": "kemok-repos/rebrandly",
     "description": "Laravel API wrapper for Rebrandly",
     "keywords": ["laravel", "rebrandly", "package", "shortlink", "url"],
     "homepage": "https://github.com/luisfergago/rebrandlyvel",
