@@ -11,8 +11,8 @@ class RebrandlyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            $this->basePath('/../config/rebrandly.php') => base_path('config/rebrandly.php')
-        ], 'rebrandly-config');
+            __DIR__.'/../config/rebrandly.php' => config_path('rebrandly.php'),
+        ]);
     }
 
     public function register()
