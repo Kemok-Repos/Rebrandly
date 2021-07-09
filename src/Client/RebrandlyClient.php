@@ -78,15 +78,15 @@ class RebrandlyClient
     /**
      * Create a new shortlink.
      * 
-     * @param string $url 
+     * @param array $url 
      * @return array 
      * @throws Throwable 
      * @throws RuntimeException 
      */
-    public function create(string $url): array
+    public function create(array $body): array
     {
 
-        return $this->request('POST', ['destination' => $url], ['id', 'shortUrl'], $this->getApiBaseUrl());
+        return $this->request('POST', $body, ['id', 'shortUrl'], $this->getApiBaseUrl());
     }
 
     /**
