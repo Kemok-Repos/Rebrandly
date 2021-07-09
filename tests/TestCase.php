@@ -1,9 +1,9 @@
 <?php
 
-namespace Luisfergago\Rebrandlyvel\Tests;
+namespace KemokRepos\Rebrandlyvel\Tests;
 
-use Luisfergago\Rebrandlyvel\Facades\Rebrandly;
-use Luisfergago\Rebrandlyvel\RebrandlyServiceProvider;
+use KemokRepos\Rebrandlyvel\Facades\Rebrandly;
+use KemokRepos\Rebrandlyvel\RebrandlyServiceProvider;
 use Orchestra\Testbench\TestCase as TestbenchTestCase;
 
 class TestCase extends TestbenchTestCase

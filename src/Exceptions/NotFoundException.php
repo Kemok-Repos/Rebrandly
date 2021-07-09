@@ -1,6 +1,6 @@
 <?php
 
-namespace Luisfergago\Rebrandlyvel\Exceptions;
+namespace KemokRepos\Rebrandlyvel\Exceptions;
 
 use Exception;
 
