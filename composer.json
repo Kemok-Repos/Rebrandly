@@ -1,0 +1,39 @@
+{
+    "name": "luisfergago/rebrandlyvel",
+    "description": "Laravel package for generating shortlinks in Rebrandly",
+    "keywords": ["laravel", "rebrandly", "package", "shortlink", "url"],
+    "homepage": "https://github.com/luisfergago/rebrandlyvel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Gámez",
+            "email": "1110241@galileo.edu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Luisfergago\\Rebrandlyvel\\": "src" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Luisfergago\\Rebrandlyvel\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.18"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luisfergago\\Rebrandlyvel\\RebrandlyServiceProvider"
+            ],
+            "aliases": {
+                "Rebrandly": "Luisfergago\\Rebrandlyvel\\Facades\\Rebrandly"
+            }
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
