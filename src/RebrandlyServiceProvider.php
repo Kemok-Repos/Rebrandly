@@ -1,10 +1,10 @@
 <?php
 
-namespace KemokRepos\Rebrandlyvel;
+namespace KemokRepos\Rebrandly;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
-use KemokRepos\Rebrandlyvel\Client\RebrandlyClient;
+use KemokRepos\Rebrandly\Client\RebrandlyClient;
 
 class RebrandlyServiceProvider extends ServiceProvider
 {

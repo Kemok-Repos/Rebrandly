@@ -1,9 +1,9 @@
 <?php
 
-namespace KemokRepos\Rebrandlyvel\Tests;
+namespace KemokRepos\Rebrandly\Tests;
 
-use KemokRepos\Rebrandlyvel\Facades\Rebrandly;
-use KemokRepos\Rebrandlyvel\RebrandlyServiceProvider;
+use KemokRepos\Rebrandly\Facades\Rebrandly;
+use KemokRepos\Rebrandly\RebrandlyServiceProvider;
 use Orchestra\Testbench\TestCase as TestbenchTestCase;
 
 class TestCase extends TestbenchTestCase

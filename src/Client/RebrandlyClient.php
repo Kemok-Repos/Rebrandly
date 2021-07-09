@@ -1,6 +1,6 @@
 <?php
 
-namespace KemokRepos\Rebrandlyvel\Client;
+namespace KemokRepos\Rebrandly\Client;
 
 use Throwable;
 use Exception;
@@ -8,8 +8,8 @@ use RuntimeException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\ClientInterface;
 use PSR\http\Message\ResponseInterface;
-use KemokRepos\Rebrandlyvel\Exceptions\NotFoundException;
-use KemokRepos\Rebrandlyvel\Exceptions\ValidationException;
+use KemokRepos\Rebrandly\Exceptions\NotFoundException;
+use KemokRepos\Rebrandly\Exceptions\ValidationException;
 
 /**
  * Class RebrandlyClient

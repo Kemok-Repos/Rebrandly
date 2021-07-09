@@ -1,6 +1,6 @@
 <?php
 
-namespace KemokRepos\Rebrandlyvel\Exceptions;
+namespace KemokRepos\Rebrandly\Exceptions;
 
 use Exception;
 

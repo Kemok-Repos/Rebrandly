@@ -1,9 +1,9 @@
 <?php
 
-namespace Luisfergago\Rebrandlyvel\Tests\Unit;
+namespace KemokRepos\Rebrandly\Tests\Unit;
 
 use Rebrandly;
-use Luisfergago\Rebrandlyvel\Tests\TestCase;
+use KemokRepos\Rebrandly\Tests\TestCase;
 
 class GreetTest extends TestCase
 {
